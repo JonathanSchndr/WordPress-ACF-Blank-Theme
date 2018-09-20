@@ -1,0 +1,22 @@
+{
+  "name": "fluidable",
+  "version": "1.4.1",
+  "description": "Lightweight, responsive, mobile first grid system",
+  "main": "fluidable.less",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andri/fluidable.git"
+  },
+  "keywords": [
+    "grid",
+    "fluid",
+    "less",
+    "sass"
+  ],
+  "author": "Andri Sigurðsson <andrisig@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andri/fluidable/issues"
+  },
+  "homepage": "https://github.com/andri/fluidable#readme"
+}

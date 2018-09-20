@@ -1,0 +1,105 @@
+html,
+body {
+  font-size: $fontSize;
+  @media only screen and (max-width: 767px) {
+    font-size: $mobileFontSize;
+  }
+  @media only screen and (max-width: 479px) {
+    font-size: $mobileSmallFontSize;
+  }
+}
+
+body {
+  font-family: $fontFamily;
+  font-weight: $fontWeightRegular;
+  line-height: $lineHeight;
+  overflow-x: hidden;
+  color: $baseColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fontFamily;
+  font-weight: $fontWeightBold;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+em,
+i {
+  font-style: italic;
+  font-weight: $fontWeightRegular;
+}
+
+strong,
+b {
+  font-weight: $fontWeightBold;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+}
+
+p {
+  margin-top: 0;
+
+  &:empty {
+    display: none;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+
+input,
+textarea {
+  font-family: $fontFamily;
+  padding: 10px 20px;
+  font-size: 0.75rem;
+}
+
+::-webkit-input-placeholder {
+  font-family: $fontFamily;
+}
+
+video {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  padding: 15px;
+  margin: 0;
+
+  @media only screen and (max-width: 767px) {
+    padding: 5px;
+  }
+}
+
+/**
+/// MIXINS
+**/
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

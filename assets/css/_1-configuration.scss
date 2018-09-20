@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("webfont.eot"); /* IE9 Compat Modes */
+  src: url("webfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("webfont.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("webfont.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("webfont.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+$fontFamily: "XX", sans-serif;
+$fontFamilyHeadline: "XX", sans-serif;
+$fontSize: 16px;
+$mobileFontSize: 14px;
+$mobileSmallFontSize: 12px;
+
+$fontWeightLight: 400;
+$fontWeightRegular: 500;
+$fontWeightBold: 700;
+
+$lineHeight: 1.2;
+
+$black: #000000;
+$white: #ffffff;
+
+$baseColor: #1d1d1b;
